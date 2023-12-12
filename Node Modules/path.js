@@ -1,0 +1,7 @@
+const path = require('path')
+let ext = path.extname("C:\Users\srich\OneDrive\Desktop\Node Course\os.js")
+let basename = path.basename("C:\\Users\\srich\\OneDrive\\Desktop\\Node Course\\os.js")
+console.log(ext)
+console.log(basename)
+console.log(__filename)
+console.log(__dirname)
